@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <style>
+ .talkbubble {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+      width: 120px;
+      height: 80px;
+      background: rgb(0, 197, 46);
+      position: relative;
+      -moz-border-radius: 10px;
+      -webkit-border-radius: 10px;
+      border-radius: 10px;
+    }
+    .talkbubble:before {
+      content: "";
+      position: absolute;
+      right: 100%;
+      top: 26px;
+      width: 0;
+      height: 0;
+      border-top: 13px solid transparent;
+      border-right: 26px solid rgb(0, 197, 46);
+      border-bottom: 13px solid transparent;
+    }
+</style>
+        <div style="border: 2px solid black;">
+        <h1>octo pancakes are cool</h1>
+        <h2>but let's updgrade them</h2>
+    </div>
+    <div class="talkbubble" style="padding-top: 3px ;">
+    what's an octo-pancake?
+    </div>
+
+
+        
+    </body>
+</html>
